@@ -1,3 +1,14 @@
+/*
+dynamic programming recursion equation:
+
+j >= a[i]:
+c[i][j] = {a[i]+c[i-1][j-a[i]] or c[i-1][j]| which one is closer to value j}
+j < a[i]
+c[i][j] = c[i-1][j]
+
+*/
+
+
 class FindHalfValueOfArray {
 	static void findHalfValueOfArray(int[] a) {
 		int sum = 0, target;
