@@ -1,3 +1,7 @@
+/*
+ * https://discuss.leetcode.com/topic/98691/farm-land-with-cells-empty-water-and-barrier
+ */
+
 public class FarmLandWithWater {
 
 	static int maxHour = 0;
