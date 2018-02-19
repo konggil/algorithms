@@ -1,4 +1,5 @@
 /*
+    https://discuss.leetcode.com/topic/32268/find-max-distance-between-any-two-nodes-of-a-binary-tree-with-at-most-a-single-bent
     one bent means: LLLLLRRRRRR or RRRRRRLLLLLL
     more than one bent like: LLLRRRLLL
 */
