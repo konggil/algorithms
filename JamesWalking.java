@@ -3,10 +3,6 @@
  * https://discuss.leetcode.com/topic/103903/dynamic-programming
  */
 
-
-
-
-
 public class JamesWalking{
 
 	static Set<String> set = new HashSet<String>();
