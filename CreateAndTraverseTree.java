@@ -1,3 +1,7 @@
+/*
+ * https://discuss.leetcode.com/topic/9/score-gathering/2
+ */
+
 public class CreateAndTraverseTree {
 
 	public static void main(String[] args) {
