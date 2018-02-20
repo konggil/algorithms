@@ -1,3 +1,6 @@
+/*
+ * https://discuss.leetcode.com/topic/38290/given-a-binary-search-tree-find-the-distance-between-2-nodes
+ */
 
 public class FindTwoNodesDist {
 	public static void main(String[] args) {
