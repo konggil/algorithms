@@ -1,3 +1,7 @@
+/*
+ * https://discuss.leetcode.com/topic/59889/dice-roll
+ */
+
 public class Dices{
 	public static void main(String[] args) {
 		slices(5, 8, 7);
