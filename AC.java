@@ -64,7 +64,7 @@ public class AC {
 					 * trie[failure][j]; }
 					 */
 					fail[trie[state][j]] = trie[failure][j];
-					out[trie[state][j]] |= out[failure];
+					out[trie[state][j]] |= out[trie[failure][j]];
 					queue.offer(trie[state][j]);
 				}
 			}
