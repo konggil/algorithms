@@ -5,7 +5,7 @@ public class ArrayCombination {
 		String[] array = { "a", "b", "c" };
 		subset(array);
 		System.out.println("==========================");
-		subset1(array);
+		subset1(array);//this one has some duplicate outputs
 	}
 
 	public static void subset(String[] array) {
