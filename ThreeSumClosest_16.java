@@ -3,7 +3,7 @@
  */
 
 
-class Solution {
+class ThreeSumClosest_16 {
     public int threeSumClosest(int[] nums, int target) {
         int res=target, minus = Integer.MAX_VALUE;
         Arrays.sort(nums);
