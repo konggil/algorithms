@@ -30,7 +30,7 @@ public class FindMaxDistanceByOneBent {
 		}
 		int leftDistance = findDistance(treeNode.left, false);
 		int rightDistance = findDistance(treeNode.right, true);
-		max = Math.max(max, leftDistance + rightDistance);
+		max = Math.max(max, leftDistance + rightDistance + 1);
 		return leftRight ? rightDistance + 1 : leftDistance + 1;
 
 	}
